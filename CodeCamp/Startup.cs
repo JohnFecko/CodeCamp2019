@@ -39,6 +39,7 @@ namespace CodeCamp
         {
             if (env.IsDevelopment())
             {
+                app.UseWebpackDevMiddleware();
                 app.UseDeveloperExceptionPage();
             }
             else

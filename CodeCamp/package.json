@@ -1,0 +1,27 @@
+{
+  "name": "codecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aspnet-prerendering": "^3.0.1",
+    "react": "16.7.0",
+    "react-dom": "16.7.0"
+  },
+  "devDependencies": {
+    "aspnet-webpack": "3.0.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "webpack": "4.15.1",
+    "webpack-cli": "3.0.8",
+    "webpack-dev-middleware": "3.1.3"
+  }
+}

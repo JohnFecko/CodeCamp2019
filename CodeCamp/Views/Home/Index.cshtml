@@ -1,8 +1,4 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+﻿<div id="root">
+    <div asp-prerender-module="Scripts/Dist/bundle-server" asp-prerender-export="Server" asp-prerender-data="new { }"></div>
 </div>
+<script src="/dist/bundle.js"></script>
